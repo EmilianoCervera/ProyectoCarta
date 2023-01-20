@@ -1,0 +1,64 @@
+
+.parrafo{
+    align-items:flex-start;
+}
+
+.fondo{
+    background-image: url(/img/cafe8.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #a8c0aa;
+    
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.centrar1{
+    text-align: center;
+}
+.bordes{
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxA{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.secciones{
+   font-weight: bold;
+   font-family:'Poppins', sans-serif; font-weight:600;
+
+}
+p{
+    font-size: 20px;
+}
+
+h4{
+margin:10px; 
+font-family: 'Poppins', sans-serif; 
+font-weight:600;}
+
+.fondo1{
+    background-color: #a8c0aa;
+    opacity: 1;
+}
+hr{color: white;
+}
+.colorTarjeta{
+    background-color:#926045;
+    width: 100%;
+    opacity: 0.8;
+}
+h2{
+    font-weight: bold;
+    font-family:'Poppins', sans-serif; font-weight:600;
+ 
+}
+

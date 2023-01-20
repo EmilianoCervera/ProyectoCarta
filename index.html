@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css"> 
+    <link rel="stylesheet" href="/sass/"><!--PRUEBA DE STIL_SCSS-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> <!--iconos-->
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> <!--iconos-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--letras-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600;900&display=swap" rel="stylesheet"><!--letras-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--letras-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Document</title>
+</head>
+
+
+    <body class="fondo">
+    
+        <div class="container">
+                <!--=================================  HEADER ================================-->
+            <header> 
+                <div class="row  p-2 me-auto rounded"><!--DOS SECCIONES PRINCIPALES-->
+                    <div class="col-12 col-sm-12 col-md-12 p- mb-2 border-opacity-25 d-flex justify-content-center text-white ">
+                        <p style="font-family: 'Poppins', sans-serif; font-weight: 200;">El cafe ayuda a quien duerme poco y sueña mucho..</p>
+                        
+                    </div>
+                </div>
+                <!--=================================== NAV =================================-->
+                <nav class="navbar navbar-expand-lg border p-2 mb-2 border-opacity-25 rounded text-white " style="font-family: 'Poppins', sans-serif; font-weight:200;" > 
+                    <div class="container-fluid">
+                        <a class="navbar-brand text-white" href="#inicio">Inicio</a>
+                        <button class="navbar-toggler bg-white border-opacity-25" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarScroll">
+                            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 100px;">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white " aria-current="page" href="#carta">Carta</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link text-white" href="#contactanos">Contactanos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled text-white" href="#sobrenosotros">¿sobre nosotros?</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-info text-white" type="submit">Buscar</button>
+                            </form>
+                    </div>
+                </div>
+
+                </nav>
+
+                <hr>
+                <!--==================================== LOGO Y ESPACIO ====================-->
+                <div class="row " id="inicio">  
+                <!-- expli de arriba: 1er col tam min ,2 col sm tabl, 3 col max // 12 = vh , 6 = %50 -->
+                    <div class="col-12 col-sm-12 col-md-12 border-0 d-flex justify-content-between" style="margin:10px; font-family: 'Poppins', sans-serif; font-weight:100;">
+
+                        
+                            <div class="p-0 w-50 "><img src="/img/logoalma3.png" alt="logo" class="rounded-circle " width="150px" height="150px"></div>
+                            <div class="p-0 flex-shrink-1 display-3 text-white ">¡Bienvenido! <span class="p-2">somos</span>  <span style="margin:10px; font-family: 'Poppins', sans-serif; font-weight:600;"> <span class="p-4">Alma</span> Cafeteria </span></div>
+                          
+                    </div>
+                </div>
+                <!--<div class="col-12 col-sm-12 col-md-6 border bg-warning">d</div> ACA LA ULTIMA FILA !!!!!!!!!!!-->
+                
+                <hr>
+
+            </header>
+            
+            
+            <!--=================================  MAIN ================================-->
+            <main>
+                <p class="text-white" id="carta">-Nuestro menu-</p>
+                <hr><br>
+                <!--============== SECCION DE MENU ========= -->
+                <div> 
+                  <div class="container-fluid centrar1 p-3" style="font-family: 'Poppins', sans-serif; font-weight:200;"> <!-- row-cols-2 ordena de dos en dos // las 4 columnas-->
+                    <div class="centrar1"> <!-- carta 1 -->              
+                        <div class="p-3 colorTarjeta bg-opacity-10 bordes text-white" id="gradient"> 
+                          <h1 style="margin:10px; font-family: 'Poppins', sans-serif; font-weight:600;">DESAYUNOS Y MERIENDAS</h1>
+                          <hr>
+                          <h4>ELEGI TU INFUSION</h4>
+                          <h6>Cafe con leche - Mate cocido - Te</h6>
+                          <br>
+                          <article class="boxA">
+                            <section><h2>LIGTH</h2></section>
+                            <p>Infusion + tostadas (pan con semillas) + queso crema + mermelada + jugo de naranja + ensalada de frutas</p>
+                          </article>
+                          <article class="boxA ">
+                            <section><h2>LIGTH COMPLETO</h2></section>
+                            <p>Infusion + Yogur con cereales o granola</p>
+                          </article>
+                          <article class="boxA">
+                            <section><h2>DEPORTIVO</h2></section>
+                            <p>Infusion + Yogur con cereales o granola + jugo de naranja + feta de jamon y queso</p>
+                          </article>
+                          <article class="boxA">
+                            <section><h2>SUPER BOWL</h2></section>
+                            <p>Bowl con cereales + Granola + Frutas de estacion + Jugo de naranja</p>
+                          </article>
+                          <article class="boxA">
+                            <section><h2>ALMA FIT</h2></section>
+                            <p>Infusion + Panqueque de avena + pasta de mani + frutas de estacion + Coco rallado + Semillas + Jugo de naranja</p>
+                          </article>
+                        </div>
+                    </div>
+                      <br>
+                    <div class="centrar1"> <!-- carta 2 -->              
+                        <div class="p-3 colorTarjeta bg-opacity-10 bordes text-white"> 
+                          <h1 style="margin:10px; font-family: 'Poppins', sans-serif; font-weight:600;">DESAYUNOS Y MERIENDAS</h1>
+                          <hr>
+                          <h4>ELEGI TU INFUSION</h4>
+                          <h6>Cafe con leche - Mate cocido - Te</h6>
+                          <br>
+                          <article class="boxA">
+                            <section class="secciones letras"><h2>FRENCH TOAST</h2></section>
+                            <p>Infusion + tostadas francesas embebidas en leche, canela y huevo + queso crema + frutas de estacion</p>
+                          </article>
+                          <article class="boxA ">
+                            <section class="secciones"><h2>AVENA FIT</h2></section>
+                            <p>Infusion + Panqueques de avena + frutas + miel</p>
+                          </article>
+                          <article class="boxA">
+                            <section class="secciones"><h2>PARFAIT DE FRUTAS Y CEREALES</h2></section>
+                            <p>Vaso deogur + Frutas de estacion + cereales o granola</p>
+                          </article>
+                          <article class="boxA">
+                            <section class="secciones"><h2>CLASICO</h2></section>
+                            <p>Infusion + 2 Facturas o 2 tortillas</p>
+                          </article>
+                          <article class="boxA">
+                            <section class="secciones"><h2>DE CAMPO</h2></section>
+                            <p>Infusion + 2 Bollitos + Dulce de leche + Jugo de naranja</p>
+                          </article>
+                        </div>
+                    </div>
+                      <br>
+                    <div class="centrar1"> <!-- carta 3 -->              
+                        <div class="p-3 colorTarjeta bg-opacity-10 bordes text-white"> 
+                          <h1 style="margin:10px; font-family: 'Poppins', sans-serif; font-weight:600;">DESAYUNOS Y MERIENDAS</h1>
+                          <hr>
+                          <h4>ELEGI TU INFUSION</h4>
+                          <h6>Cafe con leche - Mate cocido - Te</h6>
+                          <br>
+                          <article class="boxA">
+                            <section class="secciones letras"><h2>ALMA NUTELLA</h2></section>
+                            <p>Infusion + panqueques + frutas + miel + nutella</p>
+                          </article>
+                          <article class="boxA ">
+                            <section class="secciones"><h2>DISFRUTA !</h2></section>
+                            <p>Infusion + porcion de tarta/torta a eleccion </p>
+                          </article>
+                          <article class="boxA">
+                            <section class="secciones"><h2>MINI ANTOJITOS</h2></section>
+                            <p>infusion + pastafrola + 2 alfajores de maicena </p>
+                          </article>
+                          <article class="boxA">
+                            <section class="secciones"><h2>PARA COMPARTIR</h2></section>
+                            <p>Opcion 1: 2 licuados + 1 tostado de jamon y queso.</p>
+                            <p>Opcion 2: 2 jugos de naranja + 1 tostado de jamon y queso</p>
+                          </article>
+                          <article class="boxA">
+                            <section class="secciones"><h2>SALADO</h2></section>
+                            <p>Gaseosa 375cc + sandwich de jamon y queso (pan frances o sandwichero) + Dulce de leche + Jugo de naranja</p>
+                          </article>
+                        </div>
+                    </div>
+                      <br>
+                    <div class="centrar1"> <!-- carta 4 -->              
+                        <div class="p-3 colorTarjeta bg-opacity-10 bordes text-white"> 
+                          <h1 style="margin:10px; font-family: 'Poppins', sans-serif; font-weight:600;">DESAYUNOS Y MERIENDAS</h1>
+                          <hr>
+                          <h4>ELEGI TU INFUSION</h4>
+                          <h6>Cafe con leche - Mate cocido - Te</h6>
+                          <br>
+                          <article class="boxA">
+                            <section class="secciones letras"><h2>CALIENTES</h2></section>
+                            <p>Cafe chico</p>
+                            <p>Cafe en jarrita</p>
+                            <p>Cafe con leche</p>
+                            <p>Capuccino</p>
+                            <p>Submarino</p>
+                            <p>Leche cortada</p>
+                            <p>Te(te verde, abolso, etc)</p>
+                            <p>Mate cocido</p>
+                          </article>
+                          <article class="boxA ">
+                            <section class="secciones"><h2>FRIOS</h2></section>
+                            <p>Jugo de naranja</p>
+                            <p>Licuados</p>
+                            <p>(Banana, durazno, frutos de estacion)</p>
+                            <p>Con agua</p>
+                            <p>Con jugo</p>
+                            <p>Con leche</p>
+                          </article>
+                          <article class="boxA">
+                            <section class="secciones"><h2>DETOX</h2></section>
+                            <p>VERDE: manzana verde, apio, pepino y jengibre</p>
+                            <p>NARANJA: manzana verde, zanahoria, naranja y apio</p>
+                            <p>REFRESCANTE: manzana verde, apio y menta</p>
+                          </article>
+                          <article class="boxA">
+                            <section class="secciones"><h2>EXTRAS</h2></section>
+                            <p>Ensalada de frutas</p>
+                          </article>
+                          <article class="boxA">
+                            <section class="secciones"><h2>SALADO</h2></section>
+                            <p>Gaseosa 375cc + sandwich de jamon y queso (pan frances o sandwichero) + Dulce de leche + Jugo de naranja</p>
+                          </article>
+                        </div>
+                    </div>
+                      <br>
+                    <div class="centrar1"> <!-- carta 5 -->              
+                        <div class="p-3 colorTarjeta bg-opacity-10 bordes text-white"> 
+                          <h1 style="margin:10px; font-family: 'Poppins', sans-serif; font-weight:600;">DESAYUNOS Y MERIENDAS</h1>
+                          <hr>
+                          <h4>ELEGI TU INFUSION</h4>
+                          <h6>Cafe con leche - Mate cocido - Te</h6>
+                          <br>
+                          <article class="boxA">
+                            <section class="secciones letras"><h2>PANADERIA</h2></section>
+                            <p>Facturas</p>
+                            <p>Medialuna</p>
+                            <p>Medialunas con jamon y queso</p>
+                            <p>Pastafrola</p>
+                            <p>Alfajor de maicena</p>
+                            <p>Alfajor con nuez (chico/grande)</p>
+                            <p>Budin de zanahoria</p>
+                            <p>Tortillas</p>
+                            <p>Bollitos</p>
+                            <p>Brownie</p>
+                            <p>Biscochos</p>
+                            <p>Cookie</p>
+                          </article>
+                          <article class="boxA ">
+                            <section class="secciones"><h2>SANDWICH</h2></section>
+                            <p>Tostado de jamon y queso</p>
+                            <p>Tostado de ternera y queso</p>
+                            <p>Jamon crudo, rucula y queso crema</p>
+                          </article>
+                          <article class="boxA">
+                            <section class="secciones"><h2>GASEOSAS</h2></section>
+                            <p>Coca cola - Fanta - Sprite</p>
+                            <p>350ml</p>
+                            <p>500ml</p>
+                            <p>1 Litro</p>
+                            <p>1,5 Litro</p>
+                          </article>
+                        </div>
+                    </div>
+                      <br>
+                    <div class="centrar1"> <!-- carta 6 -->              
+                        <div class="p-3 colorTarjeta bg-opacity-10 bordes text-white"> 
+                          <h1 style="margin:10px; font-family: 'Poppins', sans-serif; font-weight:600;">DESAYUNOS Y MERIENDAS</h1>
+                          <hr>
+                          <h4>ELEGI TU INFUSION</h4>
+                          <h6>Cafe con leche - Mate cocido - Te</h6>
+                          <br>
+                          <article class="boxA">
+                            <section class="secciones letras"><h2>PRIMERO LO PRIMERO</h2></section>
+                            <p>Infusion + omelette de jamon, queso y tomate + tostadas</p>
+                          </article>
+                          <article class="boxA ">
+                            <section class="secciones"><h2>UN POCO DE POWER</h2></section>
+                            <p>Infusion + tostada en pan de masa madre + queso crema + jamon crudo + rucula + tomates cherrys</p>
+                          </article>
+                          <article class="boxA">
+                            <section class="secciones"><h2>ALMA BRUNCH</h2></section>
+                            <p>Infusion + palta, huevo, queso, tomates cherrys, pan de masa madre</p>
+                          </article>
+                          <article class="boxA">
+                            <section class="secciones"><h2>AVOCADO TOAST</h2></section>
+                            <p>Infusion + 2 tostadas (pan con semillas) + crema de zanahoria + cubos de queso y brotes de soja</p>
+                          </article>
+                        </div>
+                    </div>
+                      <br>
+                    <div class="centrar1"> <!-- carta 6 -->              
+                      <div class="p-3 colorTarjeta bg-opacity-10 bordes text-white"> 
+                        <article class="boxA">
+                          <img src="/img/FIN DE ALMA.png" alt="fotofin" width="100%">
+                        </article>
+                      </div>
+                  </div>
+                    <br>
+                  <div class="centrar1" id="sobrenosotros"> <!-- carta 7 -->              
+                    <div class="p-3 colorTarjeta bg-opacity-10 bordes text-white"> 
+                      <article class="boxA">
+                        <img src="/img/quienessomos.png" alt="fotofin" width="100%">
+                      </article>
+                    </div>
+                  </div>
+                </div>
+                    
+              </div>
+ 
+            </main> 
+            <footer id="contactanos"> <!--============= FOOTERR ===========================-->
+
+                <div class="row row-cols-4 p-1"> 
+                    
+                    <div class="col-12 col-sm-12 col-md-12 bg-dark text-white text-center">
+                      <br>
+                        <p> ◉ Pellegrini esquina Diego de Villaroel - Aguilares</p>
+                        <p> ◉ 24 de septiembre esquina Uspallata - Concepcion</p>
+                        <a class="nav-link text-white" href="https://instagram.com/alma.cafeteria?igshid=YmMyMTA2M2Y="><b><p> ⊛ Instagram ⊛</p></b></a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+                        </svg>
+                        <a class="nav-link active text-white " aria-current="page" href="#inicio"><b>-INICIO-</b></a>
+                        <br>
+                    </div>
+                </div>
+
+            </footer>
+        </div>
+        
+        <!-- ACA ABAJO HAGO FUNCIONAR MI JV EN BOOSTRAP-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
