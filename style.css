@@ -4,11 +4,8 @@
 }
 
 .fondo{
-    background-image: url(/img/cafe8.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    /*background-color: #a8c0aa;*/
+    
+    background-color: #a8c0aa;
     
 }
 .flex{
